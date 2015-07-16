@@ -1,0 +1,18 @@
+<!doctype html>
+<html >
+  <head>
+    <script src="angular.js"></script>
+    <script src="ui-bootstrap-tpls-0.13.0.js"></script>
+    <script src="example.js"></script>
+    <script src="js/nodemailer.js"></script>
+    <link href="bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div ng-controller="TimepickerDemoCtrl">
+
+      <center><timepicker ng-model="mytime" ng-change="changed()" hour-step="hstep" minute-step="mstep" show-meridian="ismeridian" required></timepicker></center>
+
+    </div>
+  </body>
+</html>
